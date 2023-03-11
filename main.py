@@ -14,7 +14,7 @@ my_dict.update(my_dict_2)
 my_dict_3 = dict.fromkeys(("Macbook", "Iphone"), 1)
 my_dict_4 = dict.fromkeys(("Macbook", "Iphone"))
 
-print(my_dict)
+print(my_dict.keys())
 print(my_dict_2)
 print(value)
 
