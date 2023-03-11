@@ -12,13 +12,16 @@ print('\nВыведем значение одного из ключей:')
 value = my_dict_2["Macbook"]
 print(value)
 
-print('\n')
+print('\Добавим элементы в словарь:')
 key = "fruit"
 value = "orange"
 
 my_dict_2[key] = value
+
+print('\n')
 my_dict_2['Картина'] = 'Мишки в лесу'
 
+print('\n')
 my_dict.update(my_dict_2)
 
 my_dict_3 = dict.fromkeys(("Macbook", "Iphone"), 1)
