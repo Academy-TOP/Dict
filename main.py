@@ -37,13 +37,6 @@ print(my_dict.values())
 print('\nСписок пар ключей и значений:')
 print(my_dict.items())
 
-print('\n:')
-print(my_dict_2)
-print(value)
-
-print(my_dict_3)
-print(my_dict_4)
-
 print('\nЗнакомимся с методом "Get":')
 print(my_dict.get("Developer"))
 print(my_dict.get("Key"))
