@@ -60,8 +60,6 @@ print(my_dict.popitem())
 print(my_dict)
 
 print('\nЗадача "Журнал юзера"')
-my_dict = {"Nick" : {}, "Ann" : {}, "Jane" : {}}
-my_dict = {"Nick" : {"Phone" : "0735558895", "instagram" : "@nick465", "tiktok" : "@nicklike"}, "Ann" : {"Phone" : "0995588401", "instagram" : "@ann582", "tiktok" : "@ann_02"}, "Jane": {"Phone" : "0505314589", "instagram" : "@jane_me", "tiktok" : "@janeforme"}}
 my_dict = {"Nick" : {"Phone" : "0735558895", "instagram" : "@nick465", "tiktok" : "@nicklike"}, "Ann" : {"Phone" : "0995588401", "instagram" : "@ann582", "tiktok" : "@ann_02"}, "Jane": {"Phone" : "0505314589", "instagram" : "@jane_me", "tiktok" : "@janeforme"}}
 user = my_dict[input("Enter a name ")] [input("Enter the contact type ")]
 print(user)
