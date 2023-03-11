@@ -35,9 +35,8 @@ print(my_dict.setdefault("Key"))
 print(my_dict)
 
 print('\nЗнакомимся с методом "pop":')
-my_dict = {"Macbook" : "Pro", "Developer" :
- "Nick", "Iphone" : 1}
+my_dict = {"Macbook": "Pro", "Developer": "Nick", "Iphone": 1}
 print(my_dict)
 print(my_dict.pop("Macbook"))
 print(my_dict)
-print(my_dict.pop("Key"))
+#print(my_dict.pop("Key"))
