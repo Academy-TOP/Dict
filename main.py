@@ -27,3 +27,7 @@ print(my_dict_4)
 print(my_dict.get("Developer"))
 print(my_dict.get("Key"))
 print(my_dict)
+
+print(my_dict.setdefault("Developer"))
+print(my_dict.setdefault("Key"))
+print(my_dict)
