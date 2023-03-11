@@ -2,12 +2,17 @@ print('Пустой словарь:')
 my_dict = {}
 print(my_dict, type(my_dict))
 
-int('\nЗаполняем словарь:')
+print('\nЗаполняем словарь:')
 my_dict = {"Developer": "Ann"}
 my_dict_2 = {"Macbook": "Pro", "Developer": "Nick", "Iphone": 1}
+print(my_dict)
+print(my_dict_2)
 
+print('\nВыведем значение одного из ключей:')
 value = my_dict_2["Macbook"]
+print(value)
 
+print('\n')
 key = "fruit"
 value = "orange"
 
