@@ -1,3 +1,8 @@
+print('Пустой словарь:')
+my_dict = {}
+print(my_dict, type(my_dict))
+
+int('\nЗаполняем словарь:')
 my_dict = {"Developer": "Ann"}
 my_dict_2 = {"Macbook": "Pro", "Developer": "Nick", "Iphone": 1}
 
