@@ -24,10 +24,20 @@ print(value)
 print(my_dict_3)
 print(my_dict_4)
 
+print('\nЗнакомимся с методом "Get":')
 print(my_dict.get("Developer"))
 print(my_dict.get("Key"))
 print(my_dict)
 
+print('\nЗнакомимся с методом "setdefault":')
 print(my_dict.setdefault("Developer"))
 print(my_dict.setdefault("Key"))
 print(my_dict)
+
+print('\nЗнакомимся с методом "pop":')
+my_dict = {"Macbook" : "Pro", "Developer" :
+ "Nick", "Iphone" : 1}
+print(my_dict)
+print(my_dict.pop("Macbook"))
+print(my_dict)
+print(my_dict.pop("Key"))
