@@ -7,6 +7,7 @@ key = "fruit"
 value = "orange"
 
 my_dict_2[key] = value
+my_dict_2['Картина'] = 'Мишки в лесу'
 
 print(my_dict)
 print(my_dict_2)
